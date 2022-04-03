@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+// default sass imports
+
+@import "./Styles/reset";
+@import "./Styles/variables";
+@import "./Styles/buttons";
+@import "./Styles/statusEnums";
+@import "./Styles/mixins";
+@import "./Styles/typography";
+@import "./Styles/utilities";
+@import "./Styles/layout";
+
+@import "./Styles/antdDefault";
+@import "./Styles/default";
+
+// sass imports for pages
+
+@import "./Styles/Pages/dashboard";
+@import "./Styles/Pages/orders";
+@import "./Styles/Pages/billing";
+@import "./Styles/Pages/reports";
+@import "./Styles/Pages/awb";
+@import "./Styles/Pages/couriers";
+@import "./Styles/Pages/inventory";
+@import "./Styles/Pages/clients";
+@import "./Styles/Pages/auth";
+@import "./Styles/Pages/settings";
+@import "./Styles/Pages/profile";
+@import "./Styles/Pages/allNotifications";
+@import "./Styles/Pages/clientTickets";

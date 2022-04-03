@@ -1,0 +1,11 @@
+@mixin FlexBetweenCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin BGImageCenterCover {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
